@@ -20,11 +20,16 @@ author: Haikuo Li
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  #About Me: "aboutme"
+  团队: "team"
+  成果: "publication"
+  科研: "research"
+  剪影: "gallery"
   Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
-    - About Haikuo Li: "https://haikuoli.github.io/about/"
+    - 关于PI: "https://haikuoli.github.io/about/"
+    - 代码: "https://github.com/HaikuoLi"
   #Author's home: "https://deanattali.com"
 
 ################
