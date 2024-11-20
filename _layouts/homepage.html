@@ -2,8 +2,19 @@
 layout: base
 ---
 
-<div class="container" style="text-align: center;" role="main">
-  <!-- Centering the title and subtitle -->
-  <h1 style="margin-top: 20px;">{{ page.title }}</h1>
-  <h2 style="margin-top: 10px;">{{ page.subtitle }}</h2>
+{% include header.html type="page" %}
+
+<div class="container text-center" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1 style="margin-top: 20px;">{{ page.title }}</h1>
+      <h2 style="margin-top: 10px;">{{ page.subtitle }}</h2>
+      {{ content }}
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+    </div>
+  </div>
 </div>
