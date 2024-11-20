@@ -13,7 +13,7 @@
 title: Li Lab @SJTU
 
 # Your name to show in the footer
-author: Some Person
+author: Haikuo Li
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -33,9 +33,10 @@ navbar-links:
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 #avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/kidneyomics.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -50,9 +51,11 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "haikuolibio@gmail.com"
+  email: "haikuo.li@wustl.edu"
   #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: deanattali
+  google-scholar: haikuo li
+  ORCID: 0000-0003-3697-5662
   twitter: haikuoli
   github: thelilab
   
@@ -75,8 +78,7 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
-  ORCID: 0000-0003-3697-5662
-  google-scholar: haikuo li
+
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
