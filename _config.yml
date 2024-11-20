@@ -21,15 +21,15 @@ author: Haikuo Li
 
 navbar-links:
   #About Me: "aboutme"
-  团队: "team"
-  成果: "publication"
-  科研: "research"
-  剪影: "gallery"
-  Resources:
+  团队成员: "team"
+  论文成果: "publication"
+  科研聚焦: "research"
+  #生活剪影: "gallery"
+  其它:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
     - 关于PI: "https://haikuoli.github.io/about/"
-    - 代码: "https://github.com/HaikuoLi"
+    - 代码分享: "https://github.com/HaikuoLi"
   #Author's home: "https://deanattali.com"
 
 ################
