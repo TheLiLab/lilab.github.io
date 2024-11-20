@@ -94,7 +94,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-#rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -109,7 +109,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "thelilab.github.io"
+url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -309,4 +309,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
